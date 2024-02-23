@@ -1,4 +1,12 @@
-.appBackground{
+body{
     background-color: black;
-    color: black;
 }
+
+.sidebar {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%; /* Adjust the width as needed */
+    height: 100vh; /* Use viewport height to fill the screen */
+    background-color: grey; /* Set the background color to dark brown */
+  }
+  
