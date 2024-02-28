@@ -1,12 +1,28 @@
-body{
-    background-color: black;
+body {
+    background-color: #000000;
+    background-image: url("/Users/amritanshudash/Desktop/react/portfolio/src/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-.sidebar {
+.arrange{
     display: flex;
-    justify-content: flex-end;
-    width: 30%; /* Adjust the width as needed */
-    height: 100vh; /* Use viewport height to fill the screen */
-    background-color: grey; /* Set the background color to dark brown */
-  }
-  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+}
+
+ol{
+    color: aliceblue;
+}
